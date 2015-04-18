@@ -49,6 +49,7 @@ var ISOPACKETS = {
   // the first to be rebuilt, because it might need to be loaded as part
   // of building other isopackets.
   'js-analyze': ['js-analyze'],
+  'babel': ['babel'], // for ES 6
   'ddp': ['ddp'],
   'mongo': ['mongo'],
   'ejson': ['ejson'],
